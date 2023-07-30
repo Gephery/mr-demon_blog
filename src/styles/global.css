@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #ff0000;
+	--accent-dark: #970000;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -151,4 +151,13 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+.demon-touch {
+	color: transparent;
+	text-shadow: 0 0 0 #ff00002e;
+}
+
+::selection {
+	background: rgba(255, 0, 0, 0.267);
 }
