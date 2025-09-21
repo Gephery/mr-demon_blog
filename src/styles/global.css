@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #ff0000;
-	--accent-dark: #970000;
+	--accent: #327a1e;
+	--accent-dark: #1f863e;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -155,9 +155,9 @@ hr {
 
 .demon-touch {
 	color: transparent;
-	text-shadow: 0 0 0 #ff00002e;
+	text-shadow: 0 0 0 #2584272e;
 }
 
 ::selection {
-	background: rgba(255, 0, 0, 0.267);
+	background: rgba(15, 67, 22, 0.267);
 }
